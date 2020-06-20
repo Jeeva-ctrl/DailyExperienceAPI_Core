@@ -5,9 +5,9 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-  env:
-      PUBLISH_PATH:'.'
-      AZURE_WEB_APP:''  
+env:
+  PUBLISH_PATH:'.'
+  AZURE_WEB_APP:'dailyExperienceAPi'  
 
 jobs:
   build:
